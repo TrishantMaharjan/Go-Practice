@@ -19,4 +19,6 @@ func main() {
 	fmt.Printf("Now you have %v problems \n", math.Sqrt(9))
 
 	fmt.Println(math.Pi) // In go, a name is exported if it begins with a capital letter. Here, Pi is a constant, so () is not used. () is used to execute a function
+
+	// In go, it's not public and private, it's exported and unexported
 }
